@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="id" class="h-full">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PPDB SMA YPPK ASISI SENTANI 2026/2027</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <script src="/_sdk/element_sdk.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <style>
+    * { font-family: 'Poppins', sans-serif; }
+    html, body { height: 100%; margin: 0; }
+    .scroll-smooth { scroll-behavior: smooth; }
+    .hero-gradient { background: linear-gradient(135deg, #0369a1 0%, #38bdf8 50%, #7dd3fc 100%); }
+    .card-hover:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(3,105,161,0.15); }
+    .card-hover { transition: all 0.3s ease; }
+    .fade-in { animation: fadeIn 0.6s ease forwards; opacity: 0; }
+    @keyframes fadeIn { to { opacity: 1; } }
+    .nav-active { border-bottom: 3px solid #0ea5e9; color: #0369a1; }
+    .gallery-item:hover img { transform: scale(1.05); }
+    .gallery-item img { transition: transform 0.4s ease; }
+  </style>
+  <style>body { box-sizing: border-box; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+ </head>
+ <body class="h-full overflow-auto bg-white text-gray-800 scroll-smooth"><!-- Navigation -->
+  <nav id="navbar" class="fixed top-0 left-0 w-full bg-white/95 backdrop-blur-sm shadow-sm z-50 transition-all">
+   <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+    <div class="flex items-center gap-3"><img src="https://smayppkasisisentani.sch.id/wp-content/uploads/2023/10/barulogo.png" alt="Logo SMA YPPK ASISI" class="w-10 h-10 object-contain" loading="lazy" onerror="this.style.background='#0369a1';this.alt='Logo';">
+     <div class="hidden sm:block">
+      <p id="nav-title" class="text-sm font-bold text-sky-800 leading-tight">SMA YPPK ASISI SENTANI</p>
+      <p class="text-xs text-sky-600">PPDB 2026/2027</p>
+     </div>
+    </div>
+    <div class="hidden lg:flex items-center gap-1"><a href="#beranda" class="px-3 py-2 text-sm font-medium text-gray-700 hover:text-sky-700 rounded-lg hover:bg-sky-50 transition">Beranda</a> <a href="#profil" class="px-3 py-2 text-sm font-medium text-gray-700 hover:text-sky-700 rounded-lg hover:bg-sky-50 transition">Profil</a> <a href="#info-ppdb" class="px-3 py-2 text-sm font-medium text-gray-700 hover:text-sky-700 rounded-lg hover:bg-sky-50 transition">Info PPDB</a> <a href="#galeri" class="px-3 py-2 text-sm font-medium text-gray-700 hover:text-sky-700 rounded-lg hover:bg-sky-50 transition">Galeri</a> <a href="https://docs.google.com/forms/d/e/1FAIpQLSevQjsPoM1pbYp4Ff-IIf4Js4Trt2dPfcZwAoYkn2bvLi_hIw/viewform?usp=header" target="_blank" rel="noopener noreferrer" class="ml-2 px-4 py-2 bg-sky-600 text-white text-sm font-semibold rounded-lg hover:bg-sky-700 transition">Daftar Sekarang</a>
+    </div><button id="mobile-menu-btn" class="lg:hidden p-2 text-gray-700 hover:bg-sky-50 rounded-lg"> <i data-lucide="menu" class="w-6 h-6"></i> </button>
+   </div><!-- Mobile Menu -->
+   <div id="mobile-menu" class="hidden lg:hidden bg-white border-t px-4 pb-4"><a href="#beranda" class="block py-3 text-sm font-medium text-gray-700 border-b border-gray-100">Beranda</a> <a href="#profil" class="block py-3 text-sm font-medium text-gray-700 border-b border-gray-100">Profil Sekolah</a> <a href="#info-ppdb" class="block py-3 text-sm font-medium text-gray-700 border-b border-gray-100">Info PPDB</a> <a href="#galeri" class="block py-3 text-sm font-medium text-gray-700 border-b border-gray-100">Galeri</a> <a href="https://docs.google.com/forms/d/e/1FAIpQLSevQjsPoM1pbYp4Ff-IIf4Js4Trt2dPfcZwAoYkn2bvLi_hIw/viewform?usp=header" target="_blank" rel="noopener noreferrer" class="block mt-3 text-center py-3 bg-sky-600 text-white text-sm font-semibold rounded-lg">Daftar Sekarang</a>
+   </div>
+  </nav><!-- Hero Section -->
+  <section id="beranda" class="hero-gradient pt-24 pb-16 px-4 md:pt-32 md:pb-24">
+   <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-10">
+    <div class="flex-1 text-center lg:text-left fade-in">
+     <div class="inline-block px-4 py-1.5 bg-white/20 backdrop-blur rounded-full text-white text-xs font-medium mb-4">
+      📚 Pendaftaran Dibuka 06 Mei – 03 Juni 2026
+     </div>
+     <h1 id="hero-title" class="text-3xl md:text-5xl font-extrabold text-white leading-tight mb-4">Penerimaan Peserta Didik Baru<br><span class="text-sky-100">SMA YPPK ASISI SENTANI</span></h1>
+     <p id="hero-year" class="text-lg text-sky-100 mb-8">Tahun Ajaran 2026/2027</p>
+     <div class="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start"><a href="https://docs.google.com/forms/d/e/1FAIpQLSevQjsPoM1pbYp4Ff-IIf4Js4Trt2dPfcZwAoYkn2bvLi_hIw/viewform?usp=header" target="_blank" rel="noopener noreferrer" class="px-8 py-3.5 bg-white text-sky-700 font-bold rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-all text-center"> Daftar Online Sekarang </a> <a href="#info-ppdb" class="px-8 py-3.5 border-2 border-white/60 text-white font-semibold rounded-xl hover:bg-white/10 transition text-center"> Lihat Info PPDB </a>
+     </div>
+    </div>
+    <div class="flex-1 flex justify-center fade-in" style="animation-delay:0.2s">
+     <div class="relative">
+      <div class="w-64 h-64 md:w-80 md:h-80 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center border-4 border-white/30"><img src="https://smayppkasisisentani.sch.id/wp-content/uploads/2023/10/barulogo.png" alt="Logo SMA YPPK ASISI SENTANI" class="w-48 h-48 md:w-60 md:h-60 object-contain" loading="lazy" onerror="this.style.background='transparent';this.alt='Logo Sekolah';">
+      </div>
+      <div class="absolute -bottom-2 -right-2 bg-yellow-400 text-sky-900 text-xs font-bold px-3 py-1.5 rounded-full shadow-lg">
+       NPSN: 60300176
+      </div>
+     </div>
+    </div>
+   </div>
+  </section><!-- Quick Info Cards -->
+  <section class="relative -mt-8 px-4 z-10">
+   <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div class="bg-white rounded-xl p-5 shadow-lg border border-sky-100 card-hover text-center">
+     <div class="w-12 h-12 bg-sky-100 rounded-full flex items-center justify-center mx-auto mb-3"><i data-lucide="calendar" class="w-6 h-6 text-sky-600"></i>
+     </div>
+     <h3 class="font-bold text-sky-800 text-sm">Pendaftaran</h3>
+     <p class="text-xs text-gray-600 mt-1">06 Mei – 03 Juni 2026</p>
+    </div>
+    <div class="bg-white rounded-xl p-5 shadow-lg border border-sky-100 card-hover text-center">
+     <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3"><i data-lucide="megaphone" class="w-6 h-6 text-green-600"></i>
+     </div>
+     <h3 class="font-bold text-sky-800 text-sm">Pengumuman</h3>
+     <p class="text-xs text-gray-600 mt-1">09 Juni 2026</p>
+    </div>
+    <div class="bg-white rounded-xl p-5 shadow-lg border border-sky-100 card-hover text-center">
+     <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3"><i data-lucide="users" class="w-6 h-6 text-purple-600"></i>
+     </div>
+     <h3 class="font-bold text-sky-800 text-sm">Jalur Pendaftaran</h3>
+     <p class="text-xs text-gray-600 mt-1">Jalur Umum</p>
+    </div>
+   </div>
+  </section><!-- Sambutan Kepala Sekolah -->
+  <section class="py-16 px-4 bg-sky-50/50">
+   <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-10">
+     <h2 class="text-2xl md:text-3xl font-bold text-sky-900">Sambutan Kepala Sekolah</h2>
+     <div class="w-16 h-1 bg-sky-500 mx-auto mt-3 rounded-full"></div>
+    </div>
+    <div class="bg-white rounded-2xl shadow-lg p-6 md:p-10 flex flex-col md:flex-row items-center gap-8">
+     <div class="flex-shrink-0"><img src="https://smayppkasisisentani.sch.id/wp-content/uploads/2025/11/juni-500x500.jpg" alt="Junita Hutapea, S.Pd, M.Pd." class="w-40 h-40 md:w-48 md:h-48 rounded-2xl object-cover shadow-md" loading="lazy" onerror="this.style.background='#e0f2fe';this.alt='Foto Kepala Sekolah';">
+      <p class="text-center mt-3 font-semibold text-sky-800 text-sm">Junita Hutapea, S.Pd, M.Pd.</p>
+      <p class="text-center text-xs text-gray-500">Kepala Sekolah</p>
+     </div>
+     <div class="flex-1">
+      <p class="text-gray-700 leading-relaxed mb-4 text-sm md:text-base">Selamat datang di website Penerimaan Peserta Didik Baru (PPDB) SMA YPPK ASISI Sentani Tahun Ajaran 2026/2027. Kami mengundang putra-putri terbaik untuk bergabung dengan keluarga besar SMA YPPK ASISI Kab.Jayapura.</p>
+      <p class="text-gray-700 leading-relaxed text-sm md:text-base">SMA YPPK ASISI Sentani berkomitmen untuk mencetak generasi unggul yang berprestasi, berkarakter, dan peduli lingkungan. Melalui program pendidikan yang komprehensif, kami mempersiapkan siswa untuk menghadapi tantangan masa depan dengan bekal ilmu pengetahuan, keterampilan, dan akhlak mulia.</p>
+     </div>
+    </div>
+   </div>
+  </section><!-- Profil Sekolah -->
+  <section id="profil" class="py-16 px-4">
+   <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-10">
+     <h2 class="text-2xl md:text-3xl font-bold text-sky-900">Profil Sekolah</h2>
+     <div class="w-16 h-1 bg-sky-500 mx-auto mt-3 rounded-full"></div>
+    </div><!-- Sejarah -->
+    <div class="bg-gradient-to-r from-sky-50 to-blue-50 rounded-2xl p-6 md:p-8 mb-8 border border-sky-100">
+     <h3 class="text-lg font-bold text-sky-800 mb-3 flex items-center gap-2"><i data-lucide="book-open" class="w-5 h-5"></i> Sejarah Singkat</h3>
+     <p class="text-gray-700 text-sm leading-relaxed">Didirikan pada tahun 1988, SMA YPPK ASISI Sentani awalnya hanya memiliki 6 ruang kelas dan 250 siswa. Seiring berjalannya waktu, dengan dukungan orang tua, masyarakat, dan tenaga pendidik yang profesional, sekolah ini terus berkembang dan kini menjadi salah satu sekolah favorit di Kota Sentani dengan berbagai prestasi akademik dan non-akademik di tingkat kota dan provinsi.</p>
+    </div><!-- Visi Misi -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+     <div class="bg-white rounded-2xl p-6 shadow-md border border-sky-100 card-hover">
+      <div class="w-12 h-12 bg-sky-600 rounded-xl flex items-center justify-center mb-4"><i data-lucide="eye" class="w-6 h-6 text-white"></i>
+      </div>
+      <h3 class="text-lg font-bold text-sky-800 mb-3">Visi</h3>
+      <p class="text-gray-700 text-sm leading-relaxed italic">"Unggul dalam berprestasi, berkarakter, berbudaya, peduli lingkungan, berdaya saing global berlandaskan nilai-nilai cinta kasih."</p>
+     </div>
+     <div class="bg-white rounded-2xl p-6 shadow-md border border-sky-100 card-hover">
+      <div class="w-12 h-12 bg-sky-600 rounded-xl flex items-center justify-center mb-4"><i data-lucide="target" class="w-6 h-6 text-white"></i>
+      </div>
+      <h3 class="text-lg font-bold text-sky-800 mb-3">Misi</h3>
+      <ol class="text-gray-700 text-sm leading-relaxed space-y-2 list-decimal list-inside">
+       <li>Menyelenggarakan pendidikan yang berorientasi pada pengembangan potensi peserta didik secara optimal.</li>
+       <li>Meningkatkan prestasi akademik dan non-akademik melalui pembelajaran aktif dan kreatif.</li>
+       <li>Menanamkan karakter nilai cinta kasih Yesus Kristus dan persaudaraan sejati.</li>
+       <li>Mendorong budaya bersih, sehat, dan peduli lingkungan di lingkungan sekolah.</li>
+       <li>Menjalin kemitraan dengan orang tua dan masyarakat dalam mendukung pendidikan.</li>
+      </ol>
+     </div>
+    </div><!-- Identitas -->
+    <div class="mt-8 bg-white rounded-2xl p-6 shadow-md border border-sky-100">
+     <h3 class="text-lg font-bold text-sky-800 mb-4 flex items-center gap-2"><i data-lucide="school" class="w-5 h-5"></i> Identitas Sekolah</h3>
+     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+      <div class="flex gap-2">
+       <span class="font-medium text-gray-600 min-w-[100px]">Nama:</span><span class="text-gray-800">SMA YPPK ASISI SENTANI</span>
+      </div>
+      <div class="flex gap-2">
+       <span class="font-medium text-gray-600 min-w-[100px]">NPSN:</span><span class="text-gray-800">60300176</span>
+      </div>
+      <div class="flex gap-2 sm:col-span-2">
+       <span class="font-medium text-gray-600 min-w-[100px]">Alamat:</span><span class="text-gray-800">JL. RAYA SENTANI - KEMIRI, Kec. Sentani, Kab. Jayapura, Prov. Papua</span>
+      </div>
+      <div class="flex gap-2">
+       <span class="font-medium text-gray-600 min-w-[100px]">Email:</span><span class="text-gray-800">smayppkasisi2@gmail.com</span>
+      </div>
+      <div class="flex gap-2">
+       <span class="font-medium text-gray-600 min-w-[100px]">Website:</span><a href="http://www.smayppkasisisentani.sch.id" target="_blank" rel="noopener noreferrer" class="text-sky-600 hover:underline">www.smayppkasisisentani.sch.id</a>
+      </div>
+      <div class="flex gap-2">
+       <span class="font-medium text-gray-600 min-w-[100px]">Kepsek:</span><span class="text-gray-800">Junita Hutapea, S.Pd, M.Pd.</span>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section><!-- Info PPDB -->
+  <section id="info-ppdb" class="py-16 px-4 bg-sky-50/50">
+   <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-10">
+     <h2 class="text-2xl md:text-3xl font-bold text-sky-900">Informasi PPDB</h2>
+     <div class="w-16 h-1 bg-sky-500 mx-auto mt-3 rounded-full"></div>
+    </div><!-- Tabs -->
+    <div class="flex flex-wrap justify-center gap-2 mb-8"><button onclick="showTab('syarat')" id="tab-syarat" class="tab-btn px-5 py-2.5 rounded-xl text-sm font-semibold bg-sky-600 text-white transition">Syarat Pendaftaran</button> <button onclick="showTab('jadwal')" id="tab-jadwal" class="tab-btn px-5 py-2.5 rounded-xl text-sm font-semibold bg-white text-gray-600 border border-gray-200 hover:border-sky-300 transition">Jadwal</button> <button onclick="showTab('alur')" id="tab-alur" class="tab-btn px-5 py-2.5 rounded-xl text-sm font-semibold bg-white text-gray-600 border border-gray-200 hover:border-sky-300 transition">Alur Pendaftaran</button>
+    </div><!-- Tab Content: Syarat -->
+    <div id="content-syarat" class="tab-content">
+     <div class="bg-white rounded-2xl p-6 md:p-8 shadow-md border border-sky-100">
+      <h3 class="text-lg font-bold text-sky-800 mb-4">Syarat Pendaftaran</h3>
+      <ol class="space-y-3 text-sm text-gray-700">
+       <li class="flex gap-3 items-start"><span class="flex-shrink-0 w-7 h-7 bg-sky-100 text-sky-700 font-bold rounded-full flex items-center justify-center text-xs">1</span><span>Telah lulus SMP/sederajat pada tahun pelajaran 2025/2026</span></li>
+       <li class="flex gap-3 items-start"><span class="flex-shrink-0 w-7 h-7 bg-sky-100 text-sky-700 font-bold rounded-full flex items-center justify-center text-xs">2</span><span>Usia maksimal 18 tahun pada tanggal 1 Juli 2026</span></li>
+       <li class="flex gap-3 items-start"><span class="flex-shrink-0 w-7 h-7 bg-sky-100 text-sky-700 font-bold rounded-full flex items-center justify-center text-xs">3</span><span>Mengisi formulir pendaftaran online melalui website resmi PPDB</span></li>
+       <li class="flex gap-3 items-start"><span class="flex-shrink-0 w-7 h-7 bg-sky-100 text-sky-700 font-bold rounded-full flex items-center justify-center text-xs">4</span><span>Menyerahkan berkas dokumen:</span></li>
+      </ol>
+      <div class="mt-4 ml-10 bg-sky-50 rounded-xl p-4">
+       <ul class="space-y-2 text-sm text-gray-700">
+        <li class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-green-500"></i>Fotokopi Akta Kelahiran (1 lembar)</li>
+        <li class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-green-500"></i>Fotokopi Kartu Keluarga (1 lembar)</li>
+        <li class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-green-500"></i>Pas foto 3x4 (2 lembar Hitam Putih seragam SMP)</li>
+        <li class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-green-500"></i>Surat keterangan lulus dari SMP</li>
+        <li class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-green-500"></i>Fotokopi KIP (jika ada)</li>
+       </ul>
+      </div>
+     </div>
+    </div><!-- Tab Content: Jadwal -->
+    <div id="content-jadwal" class="tab-content hidden">
+     <div class="bg-white rounded-2xl p-6 md:p-8 shadow-md border border-sky-100">
+      <h3 class="text-lg font-bold text-sky-800 mb-6">Jadwal Pendaftaran</h3>
+      <div class="space-y-6">
+       <div class="flex gap-4 items-start">
+        <div class="flex-shrink-0 w-14 h-14 bg-sky-600 rounded-xl flex flex-col items-center justify-center text-white"><span class="text-xs font-medium">MEI-JUN</span> <span class="text-lg font-bold leading-none">06</span>
+        </div>
+        <div>
+         <h4 class="font-semibold text-sky-800">Pendaftaran Online</h4>
+         <p class="text-sm text-gray-600">06 Mei – 03 Juni 2026</p>
+         <p class="text-xs text-gray-500 mt-1">Pendaftaran online dibuka melalui website resmi SMA YPPK ASISI Sentani.</p>
+        </div>
+       </div>
+       <div class="flex gap-4 items-start">
+        <div class="flex-shrink-0 w-14 h-14 bg-green-600 rounded-xl flex flex-col items-center justify-center text-white"><span class="text-xs font-medium">JUNI</span> <span class="text-lg font-bold leading-none">09</span>
+        </div>
+        <div>
+         <h4 class="font-semibold text-sky-800">Pengumuman Hasil</h4>
+         <p class="text-sm text-gray-600">09 Juni 2026</p>
+         <p class="text-xs text-gray-500 mt-1">Pengumuman hasil wawancara calon peserta didik.</p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div><!-- Tab Content: Alur -->
+    <div id="content-alur" class="tab-content hidden">
+     <div class="bg-white rounded-2xl p-6 md:p-8 shadow-md border border-sky-100">
+      <h3 class="text-lg font-bold text-sky-800 mb-6">Alur Pendaftaran</h3>
+      <div class="space-y-4">
+       <div class="flex gap-4 items-center">
+        <div class="flex-shrink-0 w-10 h-10 bg-sky-600 text-white rounded-full flex items-center justify-center font-bold text-sm">
+         1
+        </div>
+        <div class="flex-1 bg-sky-50 rounded-xl p-4">
+         <p class="text-sm font-medium text-gray-700">Mengisi Formulir Pendaftaran Online melalui website</p>
+        </div>
+       </div>
+       <div class="flex justify-center">
+        <i data-lucide="arrow-down" class="w-5 h-5 text-sky-400"></i>
+       </div>
+       <div class="flex gap-4 items-center">
+        <div class="flex-shrink-0 w-10 h-10 bg-sky-600 text-white rounded-full flex items-center justify-center font-bold text-sm">
+         2
+        </div>
+        <div class="flex-1 bg-sky-50 rounded-xl p-4">
+         <p class="text-sm font-medium text-gray-700">Menyerahkan berkas dokumen persyaratan</p>
+        </div>
+       </div>
+       <div class="flex justify-center">
+        <i data-lucide="arrow-down" class="w-5 h-5 text-sky-400"></i>
+       </div>
+       <div class="flex gap-4 items-center">
+        <div class="flex-shrink-0 w-10 h-10 bg-sky-600 text-white rounded-full flex items-center justify-center font-bold text-sm">
+         3
+        </div>
+        <div class="flex-1 bg-sky-50 rounded-xl p-4">
+         <p class="text-sm font-medium text-gray-700">Wawancara calon peserta didik</p>
+        </div>
+       </div>
+       <div class="flex justify-center">
+        <i data-lucide="arrow-down" class="w-5 h-5 text-sky-400"></i>
+       </div>
+       <div class="flex gap-4 items-center">
+        <div class="flex-shrink-0 w-10 h-10 bg-green-600 text-white rounded-full flex items-center justify-center font-bold text-sm">
+         4
+        </div>
+        <div class="flex-1 bg-green-50 rounded-xl p-4">
+         <p class="text-sm font-medium text-gray-700">Pengumuman Hasil Seleksi (09 Juni 2026)</p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section><!-- Formulir Online CTA -->
+  <section class="py-16 px-4 hero-gradient">
+   <div class="max-w-3xl mx-auto text-center">
+    <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Formulir Pendaftaran Online</h2>
+    <p class="text-sky-100 mb-8 text-sm md:text-base">Silakan klik tombol di bawah untuk mengisi formulir pendaftaran PPDB SMA YPPK ASISI Sentani Tahun Ajaran 2026/2027.</p><a href="https://docs.google.com/forms/d/e/1FAIpQLSevQjsPoM1pbYp4Ff-IIf4Js4Trt2dPfcZwAoYkn2bvLi_hIw/viewform?usp=header" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-8 py-4 bg-white text-sky-700 font-bold rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-all text-lg"> <i data-lucide="external-link" class="w-5 h-5"></i> Isi Formulir Pendaftaran </a>
+   </div>
+  </section><!-- Galeri -->
+  <section id="galeri" class="py-16 px-4">
+   <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-10">
+     <h2 class="text-2xl md:text-3xl font-bold text-sky-900">Galeri Sekolah</h2>
+     <div class="w-16 h-1 bg-sky-500 mx-auto mt-3 rounded-full"></div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+     <div class="gallery-item rounded-2xl overflow-hidden shadow-md border border-gray-100 group">
+      <div class="overflow-hidden h-48"><img src="https://smayppkasisisentani.sch.id/wp-content/uploads/2023/10/50099750328_63fa868f6a_b.jpg" alt="Kegiatan Pentas Seni Sekolah" class="w-full h-full object-cover" loading="lazy" onerror="this.style.background='#e0f2fe';this.alt='Foto tidak tersedia';">
+      </div>
+      <div class="p-3 bg-white">
+       <p class="text-sm font-medium text-gray-700">Kegiatan Pentas Seni</p>
+      </div>
+     </div>
+     <div class="gallery-item rounded-2xl overflow-hidden shadow-md border border-gray-100 group">
+      <div class="overflow-hidden h-48"><img src="https://smayppkasisisentani.sch.id/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-29-at-10.41.50-1.jpeg" alt="Laboratorium Komputer" class="w-full h-full object-cover" loading="lazy" onerror="this.style.background='#e0f2fe';this.alt='Foto tidak tersedia';">
+      </div>
+      <div class="p-3 bg-white">
+       <p class="text-sm font-medium text-gray-700">Laboratorium Komputer</p>
+      </div>
+     </div>
+     <div class="gallery-item rounded-2xl overflow-hidden shadow-md border border-gray-100 group">
+      <div class="overflow-hidden h-48"><img src="https://smayppkasisisentani.sch.id/wp-content/uploads/2023/10/Senam-bersama-jan-23-1536x690-1.jpeg" alt="Gedung Sekolah" class="w-full h-full object-cover" loading="lazy" onerror="this.style.background='#e0f2fe';this.alt='Foto tidak tersedia';">
+      </div>
+      <div class="p-3 bg-white">
+       <p class="text-sm font-medium text-gray-700">Gedung Sekolah</p>
+      </div>
+     </div>
+     <div class="gallery-item rounded-2xl overflow-hidden shadow-md border border-gray-100 group">
+      <div class="overflow-hidden h-48"><img src="https://smayppkasisisentani.sch.id/wp-content/uploads/2026/04/image-4.png" alt="Kegiatan Belajar" class="w-full h-full object-cover" loading="lazy" onerror="this.style.background='#e0f2fe';this.alt='Foto tidak tersedia';">
+      </div>
+      <div class="p-3 bg-white">
+       <p class="text-sm font-medium text-gray-700">Kegiatan Belajar</p>
+      </div>
+     </div>
+     <div class="gallery-item rounded-2xl overflow-hidden shadow-md border border-gray-100 group">
+      <div class="overflow-hidden h-48"><img src="https://smayppkasisisentani.sch.id/wp-content/uploads/2022/06/6329492e-3fee-4bdb-8233-461b76e79a01.webp" alt="Kegiatan Olahraga" class="w-full h-full object-cover" loading="lazy" onerror="this.style.background='#e0f2fe';this.alt='Foto tidak tersedia';">
+      </div>
+      <div class="p-3 bg-white">
+       <p class="text-sm font-medium text-gray-700">Lomba Olahraga</p>
+      </div>
+     </div>
+     <div class="gallery-item rounded-2xl overflow-hidden shadow-md border border-gray-100 group">
+      <div class="overflow-hidden h-48"><img src="https://www.sman1banjarbaru.sch.id/wp-content/uploads/2024/05/Picture36.jpg" alt="Laboratorium IPA" class="w-full h-full object-cover" loading="lazy" onerror="this.style.background='#e0f2fe';this.alt='Foto tidak tersedia';">
+      </div>
+      <div class="p-3 bg-white">
+       <p class="text-sm font-medium text-gray-700">Laboratorium IPA</p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section><!-- Footer -->
+  <footer class="bg-sky-900 text-white py-10 px-4">
+   <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div>
+     <div class="flex items-center gap-3 mb-3"><img src="https://smayppkasisisentani.sch.id/wp-content/uploads/2023/10/barulogo.png" alt="Logo" class="w-10 h-10 object-contain" loading="lazy" onerror="this.style.display='none';">
+      <p class="font-bold">SMA YPPK ASISI SENTANI</p>
+     </div>
+     <p class="text-sky-200 text-xs leading-relaxed">JL. RAYA SENTANI - KEMIRI, Kec. Sentani, Kab. Jayapura, Prov. Papua</p>
+    </div>
+    <div>
+     <h4 class="font-semibold mb-3 text-sm">Kontak</h4>
+     <p class="text-sky-200 text-xs flex items-center gap-2 mb-2"><i data-lucide="mail" class="w-4 h-4"></i>smayppkasisi2@gmail.com</p>
+     <p class="text-sky-200 text-xs flex items-center gap-2"><i data-lucide="globe" class="w-4 h-4"></i>www.smayppkasisisentani.sch.id</p>
+    </div>
+    <div>
+     <h4 class="font-semibold mb-3 text-sm">Tautan</h4><a href="#beranda" class="block text-sky-200 text-xs hover:text-white mb-1.5">Beranda</a> <a href="#profil" class="block text-sky-200 text-xs hover:text-white mb-1.5">Profil Sekolah</a> <a href="#info-ppdb" class="block text-sky-200 text-xs hover:text-white mb-1.5">Info PPDB</a> <a href="https://docs.google.com/forms/d/e/1FAIpQLSevQjsPoM1pbYp4Ff-IIf4Js4Trt2dPfcZwAoYkn2bvLi_hIw/viewform?usp=header" target="_blank" rel="noopener noreferrer" class="block text-sky-200 text-xs hover:text-white">Formulir Pendaftaran</a>
+    </div>
+   </div>
+   <div class="max-w-6xl mx-auto mt-8 pt-6 border-t border-sky-800 text-center">
+    <p class="text-sky-300 text-xs">© 2026 SMA YPPK ASISI SENTANI. Hak Cipta Dilindungi.</p>
+   </div>
+  </footer>
+  <script>
+    // Tab functionality
+    function showTab(tab) {
+      document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+      document.querySelectorAll('.tab-btn').forEach(el => {
+        el.className = 'tab-btn px-5 py-2.5 rounded-xl text-sm font-semibold bg-white text-gray-600 border border-gray-200 hover:border-sky-300 transition';
+      });
+      document.getElementById('content-' + tab).classList.remove('hidden');
+      document.getElementById('tab-' + tab).className = 'tab-btn px-5 py-2.5 rounded-xl text-sm font-semibold bg-sky-600 text-white transition';
+    }
+
+    // Mobile menu
+    document.getElementById('mobile-menu-btn').addEventListener('click', () => {
+      const menu = document.getElementById('mobile-menu');
+      menu.classList.toggle('hidden');
+    });
+
+    // Close mobile menu on link click
+    document.querySelectorAll('#mobile-menu a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('mobile-menu').classList.add('hidden');
+      });
+    });
+
+    // Initialize Lucide icons
+    lucide.createIcons();
+
+    // Element SDK
+    const defaultConfig = {
+      school_name: 'SMA YPPK ASISI SENTANI',
+      academic_year: '2026/2027',
+      background_color: '#0369a1',
+      surface_color: '#ffffff',
+      text_color: '#0c4a6e',
+      primary_action_color: '#0284c7',
+      secondary_action_color: '#7dd3fc',
+      font_family: 'Poppins',
+      font_size: 16
+    };
+
+    window.elementSdk.init({
+      defaultConfig,
+      onConfigChange: async (config) => {
+        const title = config.school_name || defaultConfig.school_name;
+        const year = config.academic_year || defaultConfig.academic_year;
+        const bg = config.background_color || defaultConfig.background_color;
+        const surface = config.surface_color || defaultConfig.surface_color;
+        const text = config.text_color || defaultConfig.text_color;
+        const primary = config.primary_action_color || defaultConfig.primary_action_color;
+        const secondary = config.secondary_action_color || defaultConfig.secondary_action_color;
+        const font = config.font_family || defaultConfig.font_family;
+        const size = config.font_size || defaultConfig.font_size;
+
+        // Update text
+        const navTitle = document.getElementById('nav-title');
+        if (navTitle) navTitle.textContent = title;
+        const heroTitle = document.getElementById('hero-title');
+        if (heroTitle) heroTitle.innerHTML = `Penerimaan Peserta Didik Baru<br><span class="text-sky-100">${title}</span>`;
+        const heroYear = document.getElementById('hero-year');
+        if (heroYear) heroYear.textContent = `Tahun Ajaran ${year}`;
+
+        // Update colors
+        document.querySelectorAll('.hero-gradient').forEach(el => {
+          el.style.background = `linear-gradient(135deg, ${bg} 0%, ${primary} 50%, ${secondary} 100%)`;
+        });
+        document.querySelectorAll('.card-hover, .tab-content .bg-white').forEach(el => {
+          el.style.backgroundColor = surface;
+        });
+        document.querySelectorAll('h2, h3').forEach(el => {
+          if (el.closest('.hero-gradient') || el.closest('footer')) return;
+          el.style.color = text;
+        });
+
+        // Font
+        document.body.style.fontFamily = `${font}, Poppins, sans-serif`;
+        document.body.style.fontSize = `${size}px`;
+      },
+      mapToCapabilities: (config) => ({
+        recolorables: [
+          { get: () => config.background_color || defaultConfig.background_color, set: (v) => { config.background_color = v; window.elementSdk.setConfig({ background_color: v }); } },
+          { get: () => config.surface_color || defaultConfig.surface_color, set: (v) => { config.surface_color = v; window.elementSdk.setConfig({ surface_color: v }); } },
+          { get: () => config.text_color || defaultConfig.text_color, set: (v) => { config.text_color = v; window.elementSdk.setConfig({ text_color: v }); } },
+          { get: () => config.primary_action_color || defaultConfig.primary_action_color, set: (v) => { config.primary_action_color = v; window.elementSdk.setConfig({ primary_action_color: v }); } },
+          { get: () => config.secondary_action_color || defaultConfig.secondary_action_color, set: (v) => { config.secondary_action_color = v; window.elementSdk.setConfig({ secondary_action_color: v }); } }
+        ],
+        borderables: [],
+        fontEditable: { get: () => config.font_family || defaultConfig.font_family, set: (v) => { config.font_family = v; window.elementSdk.setConfig({ font_family: v }); } },
+        fontSizeable: { get: () => config.font_size || defaultConfig.font_size, set: (v) => { config.font_size = v; window.elementSdk.setConfig({ font_size: v }); } }
+      }),
+      mapToEditPanelValues: (config) => new Map([
+        ['school_name', config.school_name || defaultConfig.school_name],
+        ['academic_year', config.academic_year || defaultConfig.academic_year]
+      ])
+    });
+  </script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f5b7b1623fd62b7',t:'MTc3Nzc3MTYyMS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
